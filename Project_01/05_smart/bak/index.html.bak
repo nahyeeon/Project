@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ </head>
+ <body>
+
+    <header>
+		<div class="head">
+			<div class="inner">
+				<h1><a href="#"><img src="image/logo.png" alt="로고"></a></h1>
+				<ul class="map">
+					<li><a href="#">로그인</a></li>
+					<li>ㅣ</li>
+					<li><a href="#">장바구니</a></li>
+					<li>ㅣ</li>
+					<li><a href="#">회원가입</a></li>
+					<li>ㅣ</li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+				<div class="search">
+					<form action="">
+						<input type="text" name="" id="" placeholder="검색어를 입력하세요.">
+					</form>
+				</div>
+			</div>
+		</div>
+	    <!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<ul class="nav-list">
+					<li><a href="#">기관</a></li>
+					<li><a href="#">사업</a></li>
+					<li><a href="#">후원</a></li>
+					<li><a href="#">참여</a></li>
+					<li><a href="#">소식</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- //nav -->
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+			<div class="mNav">
+				<a href="#"><span></span><span></span><span></span></a>
+			</div>
+		</div>
+		<!-- //mobile_menu -->
+    </header>
+	
+	<!-- visual -->
+	<div class="visual">
+		<div class="inner">
+			<div class="vis">
+				<h2>
+					<b>#당신의 이름</b>을 보태주세요
+					<p>아동학대 정책개선 캠페인</p>
+				</h2>
+				<p>
+					오늘도 하루평균 82명의 아이들이 학대 받고,<br>
+					지난 해 최소 42명의 아이들이 죽어서 집을 나왔습니다.<br>
+					돌려보낸 아이 8명 중 1명은 다시 위험 신고가 들어옵니다.<br>
+					여러 어른을 만났지만 어떤 아이의 구조 신호는 대답을 한 번도 듣지 못합니다.<br>
+				</p><br>
+				<p>
+					[ 보건복지부, 아동권리보장원, 2019 아동학대 주요통계. 2020 ]
+				</p><br>
+				<span><a href="#">자세히보기</a></span>
+			</div>
+		</div>
+		<img src="image/main/visual.jpg" alt="visual">
+		<span><img src="image/main/visual_m.jpg" alt=""></span>
+	</div>
+	<!-- //visual -->
+	
+	<!-- content -->
+	<div class="content">
+		<div class="story inner">
+			<div>
+				<h2><img src="image/logo.png" alt="로고""></h2>
+				<h3>세이브더칠드런 <b>나눔이야기</b></h3>
+			</div>
+			<div class="st_list">
+				<ul>
+					<li>
+						<div>
+							<p>국내사업</p>
+							<p><b>까막눈 할배와 재윤이의 봄,<br>새학기 지원 그 후</b></p>
+							<p>쇠약한 몸으로 폐지를 줍는 할머니, 할아버지. 
+							그리고 초등학교에 입학하는 재윤이(가명). 
+							할머니 할아버지는 어려운 형편에 새학기에...</p>
+						</div>
+						<p><img src="image/main/thumbnail_img1.jpg" alt="st1"></p>
+					</li>
+					<li>
+						<div>
+							<p>긴급구호</p>
+							<p><b>로힝야 난민캠프 화재 발생<br>‘자꾸만 길을 잃는 아이들'</b></p>
+							<p>우리에게는 일상의 감각을 지탱해주는 
+							많은 것들이 있습니다. 동네 어귀의 느티나무, 
+							어린 시절 뛰어놀던 학교 운동장, 집 앞...<br></p>
+						</div>
+						<p><img src="image/main/thumbnail_img2.jpg" alt="st2"></p>
+					</li>
+					<li>
+						<div>
+							<p>월페이퍼</p>
+							<p><b>세이브더칠드런 월페이퍼를<br>배경화면에 장식해 보세요!</b></p>
+							<p>2021년 4월 월페이퍼의 주인공은  
+							방글라데시 로힝야에서 생활하는 '누르'입니다.
+							태어날 때부터 청각장애를 갖고 있던 누르는..</p>
+						</div>
+						<p><img src="image/main/thumbnail_img3.jpg" alt="st3"></p>
+					</li>
+					<li>
+						<div>
+							<p>긴급구호</p>
+							<p><b>미얀마 폭력사태, 후원 아동이<br>사는 곳은 괜찮은가요?</b></p>
+							<p>미얀마는 이미 코로나19와 무력 분쟁 등으로 
+							아동 38만 3천여 명 46만여 명이 교육과 보건, 
+							영양, 심리적 건강의 위기를 겪고 있습니다...</p>
+						</div>
+						<p><img src="image/main/thumbnail_img4.jpg" alt="st4"></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="law">
+			<div class="inner">
+				<span><img src="image/main/img.jpg" alt="law"></span>
+				<div>
+					<p>세이브더칠드런, 믿고 후원해도 되나요?</p>
+					<p>
+						모든 <b>법률 규정</b>을 준수하고<br>
+						정보를 <b>투명하게</b> 공개합니다</p>
+					<p>
+						세이브더칠드런은 '책무성'과 '투명성'을 지키기 위해 끊임없는 노력을 기울이고 있습니다.<br>
+						NGO의 투명성과 경영성과를 객관적으로 평가해 수여하는 삼일투명경영대상 수상과<br> 
+						UN경제사회이사회로부터 NGO 최상위 지위인 포괄적 협의지위 획득했으며,<br>
+						글로벌 4대 회계법인인 한영 회계법인을 통한 외부 감사 등 철저한 내외부 감사 실시하고 있습니다.</p>
+						<p><a href="#">투명경영 보기</a>
+						<a href="#">연차보고서 보기</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="campaign">
+			<div>
+				<h3>세이브더칠드런 <b>캠페인</b></h3>
+				<p>세이브더칠드런은 아동의 삶에서 획기적인 변화를 이루기 위해<br>
+				아동과 가장 가까운 곳에서 아동에게 가장 필요한 프로그램을 진행합니다.</p>
+			</div>
+			<div class="inner">
+				<p>
+				당신도 무심코 던진말로 아이에게 상처주고 있진 않나요?<br>
+				말로도 때리지 않겠다는 약속, 함께해 주세요.<br>
+				<span><a href="#">자세히보기</a></span></p>
+			</div>
+		</div>
+		<div class="mov">
+			<h3>세이브더칠드런 <b>유튜브 영상</b></h3>
+			<p>우리는 모든 아동이 생존, 보호, 발달 및 참여의 권리를 온전히 누리는 세상을 꿈꿉니다.</p>
+			<ul>
+				<li>
+					<div>
+						<img src="image/main/youtubeL3.png" alt="youtubeL3">
+						<p>세이브더칠드런 놀이터를 지켜라</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="image/main/youtubeL2.png" alt="youtubeL3">
+						<p>제6회 아동권리영화제</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="image/main/youtube1.png" alt="youtubeL3">
+						<p>아동학대<br>정책 개선 캠페인<br><span><a href="#">채널보러가기 ></a></span></p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="image/main/youtubeR2.png" alt="youtubeL3">
+						<p>세이브더칠드런 해외결연</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="image/main/youtubeR3.png" alt="youtubeL3">
+						<p>세이브더칠드런 신생아 살리기 캠페인</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="news">
+			<h3>세이브더칠드런 <b>소식이 궁금</b>하세요?</h3>
+			<div class="inner">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+		</div>
+		<div class="support"></div>
+	</div>
+	<!-- //content -->
+
+	<footer>
+		<div class="inner"></div>
+	</footer>
+
+
+ </body>
+</html>

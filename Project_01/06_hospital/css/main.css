@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#wrap{width:100%;}
+.inner{width:1200px; margin:0 auto;}
+.content{width:100%;}
+/* footer */
+footer{padding:50px 0; background:#a8a8a8;}
+
+/* header */
+header{position:absolute; left:0; top:0; width:100%;}
+header .inner{overflow:hidden; height:158px; line-height:158px;}
+header h1{float:left; font-weight:bold; padding-top:10px;}
+
+/* visual */
+.visual{background:url(../image/visual_bg.jpg); width:100%; height:808px;}
+.visual .left{float:left; padding-top:222px;}
+.visual .right{float:right; padding-top:135px;}
+
+.left ul{font-size:0; margin-bottom:22px;}
+.left ul li{display:inline-block; margin-right:10px;}
+.left h3{font-size:37px; font-weight:100; margin-bottom:10px; font-family: 'Gothic A1', sans-serif;}
+.left h2{font-size:70px; font-weight:bold; line-height:105%; font-family: 'Gothic A1', sans-serif;
+margin-bottom:45px;}
+.left p{line-height:130%; font-size:14px; margin-bottom:30px;}
+.left p span{font-style:italic;}
+.left button{font-size:14px; border:0; width:151px; height:34px; background-color:#0098af; color:#fff; text-indent:-10px; cursor:pointer;}
+.left button + button{background-color:#c7ada0; text-indent:0;}
+
+/* content */
+.content .about{background:#ecf0f1; padding:80px 0;}
+.content .service{background:url(../image/quick_bg.jpg); width:100%; height:645px;}
+
+.about{text-align:center;}
+.content p{font-size:20px; font-weight:300; color:#000; letter-spacing:-1px;}
+.content h2{font-size:37px; padding:10px 0; font-weight:400; font-family: 'Gothic A1', sans-serif; letter-spacing:-2px;}
+.content span{font-size:13px; color:#8b8c8e; font-weight:400; display:block; margin-bottom:40px;}
+
+.about ul{font-size:0; width:100%;}
+.about ul li{position:relative; display:inline-block; width:240px; height:290px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.about ul li:nth-child(2){background:#0098b0;}
+.about ul li:nth-child(4){background:#c7ada0;}
+.about ul li:nth-child(5){background:#fff; color:#fff;}
+.about ul li > div{position:absolute; left:0; top:0;}
+.about ul li > div span{position:absolute; left:68px; top:36px;}
+.about ul li div p{font-size:14px; padding-left:20px; margin-top:165px; letter-spacing:0;}
+.about ul li div p b{display:block; margin-bottom:10px; font-size:20px;}
+.about ul li:nth-child(2) div p{color:#fff;}
+
+.about ul li:last-child div p{position:relative; margin:0; text-align:left; font-size:13px; font-weight:bold;
+border-bottom:1px solid #ddd;}
+.about ul li:last-child div p:last-child{border-bottom:0;}
+.about ul li:last-child div p > a{display:block; padding:19px 0; padding-left:12px; 
+padding-right:109px;}
+.about ul li:last-child div a:after{position:absolute; right:19px; top:15px; content:""; width:25px; height:25px; background:url(../image/arrow_off.png) no-repeat;}
+.about ul li:last-child div p:hover{background:#eee6e3;}
+.about ul li:last-child div p > a:hover{color:#0099b0;}
+.about ul li:last-child div a:hover:after{position:absolute; right:19px; top:15px; content:""; width:25px; height:25px; background:url(../image/arrow_on.png) no-repeat;}
+
+/* service */
+.service .inner{padding:80px 0;} 
+.service .inner > div{width:713px; float:right;}
+.service div ul{font-size:0; text-align:center;}
+.service div ul li{position:relative; width:167px; height:281px; display:inline-block; margin-left:13px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.service div ul li:first-child{margin:0;}
+.service div ul li:nth-child(2){background:#0098b0;}
+.service div ul li:nth-child(1),
+.service div ul li:nth-child(3),
+.service div ul li:nth-child(4){background:#c7ada0;}
+.service div ul li div{position:absolute; left:0; top:0;}
+.service div ul li div p{position:absolute; left:23px; top:154px; font-size:14px; line-height:130%;}
+.service div ul li div p b{letter-spacing:0; display:block; font-size:16px; font-weight:400; margin-bottom:-10px;}
+
+.service div ul li:after{cursor:pointer; position:absolute; left:46px; bottom:-40px; content:""; width:76px; height:76px;}
+.service div ul li:first-child:after{background:url(../image/quick_icon1.png) no-repeat;}
+.service div ul li:nth-child(2):after{background:url(../image/quick_icon2.png) no-repeat;}
+.service div ul li:nth-child(3):after{background:url(../image/quick_icon3.png) no-repeat;}
+.service div ul li:nth-child(4):after{background:url(../image/quick_icon4.png) no-repeat;}
+
+/* footer */
+footer{display:table; width:100%;}
+footer .inner{display:table-cell; text-align:center; vertical-align:middle; color:#fff; letter-spacing:1px;}
+footer ul{font-size:0;}
+footer ul li{position:relative; display:inline-block; font-size:12px; text-transform:uppercase; padding-left:30px; margin:0 10px;}
+footer ul li:nth-child(even){padding:0; margin:0;}
+footer ul li a{color:#fff; display:block; padding:0 10px;}
+footer ul li img{display:inline-block; position:absolute; left:8px; top:-3px;}
+footer p{font-size:11px; font-weight:100; padding-top:18px;}
+
