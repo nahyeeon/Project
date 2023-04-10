@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*gnb*/
+/* visual */
+.visual{border-bottom:1px solid #c3c3c3;}
+.visual .inner{height:55px; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.gnb ul{font-size:0; line-height:55px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.gnb ul li{position:relative; display:inline-block; color:#97838e; font-size:17px; font-weight:400;}
+.gnb ul li a{margin:0 25px; padding:14px 8px;}
+.gnb ul li > a img{position:absolute; left:40px; top:20px;}
+.gnb ul li:first-child{text-indent:2em; text-align:center; border-right:1px solid #ddd;}
+.gnb ul li:first-child a{padding:16px 45px; margin:0;}
+.gnb ul li:first-child:hover{background:#6410b0;}
+.gnb ul li:first-child a:hover{color:#fff;}
+.gnb ul li:nth-child(2){padding-left:27px;}
+.gnb ul li:nth-child(n+2) a:hover{border-bottom:2px solid #000; color:#000;}
+.gnb .selected{border-bottom:2px solid #000; color:#000;}
+
