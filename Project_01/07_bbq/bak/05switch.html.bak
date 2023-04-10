@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	
+	<script language="JavaScript">
+		/*
+			여러 개의 조건이 있을때 실행할 코드 결정
+			평가식과 레이블을 서로 비교하여 일치하면 실행, 일치하지 않으면 다음 case로 넘어감
+			switch(평가식){ //평가식에는 변수, 상수, 비교연산자 등 다양한 데이터 가능
+				case레이블1 : {수행문} // case뒤에는 상수값만 가능
+				case레이블2 : {수행문}
+				case레이블3 : {수행문}
+			}
+		*/
+		day="수"
+		switch(day){ //변수 day가
+			case "월" : { //월이면
+				document.write("윤재환");	 //윤재환 실행
+			}
+			case "화" : { //월,화이면
+				document.write("서지원");	 //서지원 실행
+			}
+			case "수" : {
+				document.write("민재홍");	
+			}
+			case "목" : {
+				document.write("김정원");	
+			}
+			default : { //switch문 하나당 1개만 사용 가능, 모든 case의 상수값 중에 일치하지 않는게 있다면
+				document.write("김광일, 김유 출석");	
+			}
+		}
+	</script>
+		
+ </body>
+</html>

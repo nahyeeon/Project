@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	
+	<script language="JavaScript">
+		// ""있으면 문자로 인식
+		// ""없으면 수식(동식, 부동식 등)으로 인식
+		a = "10"
+		b = "20"
+		c = a + b
+		document.write(c);
+		document.write("<br>");
+		
+		a = 10
+		b = 20
+		c = a + b
+		document.write(c,"이지롱~");
+		document.write("<br>");
+		document.write(c+"일껄?");
+		
+		//대입연산자
+		c = c + "이냐?" //변수를 이용해서 대입
+		document.write(c,"<br><br>");
+
+		//증가연산자
+		//a++ : 값을 출력하고 증가
+		a=1
+		document.write(a++,"<br>");
+		document.write(a++,"<br>");
+		document.write(a++,"<br>");
+		document.write(a++,"<br>");
+		document.write(a++,"<br>");
+		document.write(a++,"<br><br><br><br>");
+
+		//++a : 증가를 하고 출력
+		a = 1
+		document.write(++a,"<br>");
+		document.write(++a,"<br>");
+		document.write(++a,"<br>");
+		document.write(++a,"<br>");
+		document.write(++a,"<br>");
+		document.write(++a,"<br>");
+		document.write(++a,"<br><br><br><br>");
+
+	</script>
+
+ </body>
+</html>
