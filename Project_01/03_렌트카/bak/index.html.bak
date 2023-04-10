@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+	
+	<!-- header -->
+	<header>
+		<div class="top">
+			<div class="inner">
+				<ul>
+					<li><a href="#"><b>010-3037-7772</b></a></li>
+					<li>&nbsp;&nbsp;ㅣ&nbsp;&nbsp;</li>
+					<li><a href="#">이벤트</a></li>
+					<li>&nbsp;&nbsp;ㅣ&nbsp;&nbsp;</li>
+					<li><a href="#">고객센터</a></li>
+					<li>&nbsp;&nbsp;ㅣ&nbsp;&nbsp;</li>
+					<li><a href="#">관리자</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="gnb inner">
+			<span><a href="index.html"><img src="image/logo.png" alt="logo"></a></span>
+			<ul>
+				<li>
+					<a href="#" class="selected">특별 프로모션<a>
+				</li>
+				<li>
+					<a href="#">중고차 장기렌트<a>
+				</li>
+				<li>
+					<a href="#">신차 장기렌트<a>
+				</li>
+				<li>
+					<a href="#">중고차판매<a>
+				</li>
+				<li>
+					<a href="#">회사소개<a>
+				</li>
+				<li>
+					<input name="" id="" placeholder="차량명을 입력하세요.">
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- //header -->
+	
+	<!-- visual -->
+	<div class="visual">
+		<div class="inner">
+			<h2><img src="image/phone.png" alt="상담">렌트카 상담신청
+			<br><span>Customer Service</span></h2>
+			<ul>
+				<li>111</li>
+				<li>222</li>
+				<li>333</li>
+				<li>444</li>
+			</ul>2023-03-31
+		</div>
+	</div>
+	<!-- //visual -->
+
+	<!-- content -->
+	<div class="content"></div>
+	<!-- //content -->
+
+	<!-- footer -->
+	<footer></footer>
+	<!-- //footer -->
+
+ </body>
+</html>

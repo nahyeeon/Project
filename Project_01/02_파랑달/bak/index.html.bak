@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+	<div id="wrap">
+		<!-- header -->
+		<header>
+			<a href="index.html"><img src="../../image/logo.jpg" alt="로고"></a>
+			<ul>
+				<li>
+					<a href="html/about/greeting.html">
+						<b>HISTORY</b>
+						<p>히스토리</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<b>WEBZIN</b>
+						<p>웹진</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<b>CHILLING HEALING</b>
+						<p>칠링힐링</p>
+					</a>	
+				</li>
+				<li>
+					<a href="#">
+						<b>DAL'그락</b>
+						<p>달그락</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<b>STORY 파랑달</b>
+						<p>파랑달이야기</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<b>COMMUNITY</b>
+						<p>커뮤니티</p>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<!-- //header -->
+		
+		<!-- visual -->
+		<div class="visual">
+			<div class="hot">
+				<p>
+					<b>HOT ISSUE</b>
+					2016 강릉단오제 "신주빚기 무료체험" 5월 11일 2016.04.19. 15:13
+				</p>
+				<ul>
+					<li><a href="#"><img src="image/facebook.jpg" alt="페이스북"></a></li>
+					<li><a href="#"><img src="image/twitter.jpg" alt="트위터"></a></li>
+					<li><a href="#"><img src="image/blog.jpg" alt="블로그"></a></li>
+					<li><a href="#"><img src="image/youtube.jpg" alt="유튜부"></a></li>
+					<li><a href="#"><img src="image/search.png" alt="검색"></a></li>
+				</ul>
+			</div>
+			<div class="issue">
+				<div>
+					<h2>컬쳐팩토리 파랑달이</h2>
+					<h3>
+					우리 역사와 문화를 뿌리로 하여 자연과<br>
+					사람이 어우러지는 저 너머의 새로운<br>
+					세상으로 안내합니다
+					</h3>
+				</div>
+			</div>
+			<div class="story">
+				<ul>
+					<li>
+						<div class="mov">
+							<iframe width="450" height="254" src="https://www.youtube.com/embed/DAKUGvsOnq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="adv">
+							<ul>
+								<li>
+									<img src="image/main/adv1.jpg" alt="adv1">
+									<p>컬쳐팩토리파랑달<br>영상광고</p>
+									<span>2016.5.10</span>
+								</li>
+								<li>
+									<img src="image/main/adv3.jpg" alt="adv2">
+									<p>[봄날 영화관]<br>30초 광고</p>
+									<span>2016.5.10</span>
+								</li>
+								<li>
+									<img src="image/main/adv2.jpg" alt="adv3">
+									<p>ICCN SPECIAL<br>TWO</p>
+									<span>2016.5.10</span>
+								</li>
+								<li>
+									<img src="image/main/adv4.jpg" alt="adv4">
+									<p>새해맞이 무박2일<br>여행후기</p>
+									<span>2016.5.10</span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="bluemoon">
+							<span>+</span>
+							<div>
+							<img src="image/main/icon.png" alt="파랑달">
+							<b>STORY 파랑달</b><br>
+							<p>파랑달이야기</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="chilling">
+							<ul>
+								<li>
+									<a href="#">
+										<h2>CHILLING 힐링</h2>
+										<p>컬쳐팩토리 파랑달이 준비한<br>
+										칠링힐링 상품 보러가기</p>
+										<span>자세히 보기</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h2>DAL'그락</h2>
+										<p>컬쳐팩토리 파랑달이 준비한<br>
+										달그락 상품 보러가기</p>
+										<span>자세히 보기</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //visual -->
+
+		<!-- content -->
+		<div class="content">
+			<div class="news">
+				<div class="new">
+					<h3>파랑달 소식<span><a href="#">+</a></span></h3>
+					<ul>
+						<li>
+							<img src="image/main/news1.jpg" alt="뉴스1">
+							<p>
+								<b>[문화기획]2016 강릉단오<br> 
+								"신주빚기 체험" 성황리에 <br>
+								마무리</b><br>
+								Culture Factory 파랑달이 진행한 <br>
+								2016 강릉단오 신주빚기 ...<br>
+								<br><span>2016년 5월 12일</span>
+							</p>
+						</li>
+						<li>
+							<img src="image/main/news2.jpg" alt="뉴스2">
+							<p>
+								<b>[문화여행]"칠링힐링 풍:류"<br> 
+								그 시작을 알리다_4월23일 <br>
+								진행</b><br>
+								자연이 빚어낸 천혜의 절경에 조선 <br>
+								선비의 풍류가 더해진 경포의 누정..<br>
+								<br><span>2016년 4월 25일</span>
+							</p>
+						</li>
+						<li>
+							<img src="image/main/news3.jpg" alt="뉴스3">
+							<p>
+								<b>[파랑달생각]"편백나무보다 <br>
+								소나무! 4배 많은 피톤치드가 <br>
+								솔숲에"</b><br>
+								파랑달 멤버들이 ohmynews에 강릉<br>
+								여행 관련 기사를 연재하고 있습니다.<br>
+								<br><span>2016년 4월 08일</span>
+							</p>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="notice">
+					<h3>파랑달 공지사항<span><a href="#">+</a></span></h3>
+					<ul>
+						<li>
+							<p>
+								<b>2016 강릉단오제 “신주빚기 무료체험” 5월11일</b><br><br>
+								신주빚기는 유네스코 인류무형문화유산 강릉단오제의 시작을 알리는 행사로 산신제와 대관령 국사성황제 등 제례에 쓰일 술을 정성껏 빚는 행사입니다. <br>
+								<br><span>2016/04/19</span>
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Culture Factory 파랑달(협동조합)</b><br><br>
+								파도와 블루컬러의 중의적 의미를 담은 “파랑”과 파도를 만들어 내고 여성과 음기,
+								잉태와 풍요의 의미를 담은 “달”의 합성어 파랑달의 영어표기인 “BLUE MOON”은 한 달에 
+								보름달이 두번 뜨는 현상 중 두번 째 달을 뜻한다.<br>
+								<br><span>2016/04/19</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="trip">
+				<div class="product">
+					<h3>파랑달 강릉여행 상품</h3>
+					<ul>
+						<li>
+							<p><img src="image/main/product1.jpg" alt="상품1"></p>
+							<div>
+								<p>2016 강릉단오제 "신주빚기 무료체험” 5월11일</p>
+								<p>산신제와 대관령국사성황제 등 제례에 쓰일 술을 정성껏 빚는 행사입니다.</p><br>
+								<P>- 일시: 2016.5. 11(수) 오후 2시 부터 시작<br>
+									- 모집인원 : 선착순 60명 (20명씩 3회 진행, 1회 약 15분 소요)<br>
+									- 체험비 : 무료<br>
+									- 모집대상 : 전통문화에 관심이 많은 일반시민 및 단체, 가족단위 체험자, 학생 • 청소년</P>
+							</div>
+						</li>
+						<li>
+							<p><img src="image/main/product2.jpg" alt="상품2"></p>
+							<div>
+								<p>4월 16일 강릉 봄나들이 (서울왕복교통포함)</p>
+								<p>칠링힐링 파랑달과 함께 강릉 당일치기 여행</p><br>
+								<P>- 구매제한: 1인당 구매제한 없음<br>
+									- 왕복교통비, 강릉 내 가이드, 허균•허난설헌 생가 전통차, 강문해변 갈매기를 위한 과자</P>
+							</div>
+						</li>
+						<li>
+							<p><img src="image/main/product3.jpg" alt="상품3"></p>
+							<div>
+								<p>"강릉봄꽃여행” 4월 9~ 10일(토~일)</p>
+								<p>파랑달과 함께 벚꽃아래 칠링힐링. 몸과 마음이 꿈틀거리는 봄!봄!!봄!!!<br>
+									바다와 호수를 품은 매력적인 녹색도시. 강릉에서 만끽하는 칠링힐링 봄꽃여행!!<br>
+									경포호의 벚꽃이 가장 아름다운 날, 당신의 칠링힐링이 시작됩니다.
+									</p><br>
+								<P>- 1일차 강릉 내 이동, 점심피크닉 도시락&. 커피, 낙화주& 한과, 중앙시장 아지트에서의 간단한 먹거리 8 주류,<br>
+									- 모집대상 : 전통문화에 관심이 많은 일반시민 및 단체, 가족단위 체험자, 학생 • 청소년<br>
+									한옥숙박, 저녁바비큐</P>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="sns">
+					<h3>파랑달 SNS</h3>
+					<ul>
+						<li>
+							<p>인생 중 가장 푸르다는 청춘과 닮은 달!<br>
+								보통 5월은 눈이 부시게 아름다운 햇살이 가득할<br>
+								것 같은데 오늘은 거센 비바람이 몰아칩니다.</p>
+							<p>
+								<img src="image/main/sns.png" alt="sns"><span>홍길동 16.02.03</span>
+							</p>
+						</li>
+						<li>
+							<p>안녕하세요.<br>
+								혹시 구직 중이신 분들 계시면, 많은 관심과 연락<br>
+								부탁드립니다. 궁금하신 점 있...</p>
+							<p>
+								<img src="image/main/sns.png" alt="sns"><span>김세연 16.02.03</span>
+							</p>
+						</li>
+						<li>
+							<p>안녕하세요.<br>
+								혹시 구직 중이신 분들 계시면, 많은 관심과 연락<br>
+								부탁드립니다. 궁금하신 점 있...</p>
+							<p>
+								<img src="image/main/sns.png" alt="sns"><span>김세연 16.02.03</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //content -->
+		
+		<!-- footer -->
+		<footer>
+			<div>
+				<p><img src="image/logo_footer.jpg" alt="파랑달">
+					<span>주소 : 강원도 강릉시 가작로 182, 2층 (교동)ㅣ전화 : 033)646-2275 ㅣ이메일 : parangdal5@naver.com<br>
+					Copyright @ 컬쳐팩토리 파랑달 All Rights Reserved.</span></p>
+				<ul>
+					<li><a href="#"><img src="image/facebook_footer.jpg" alt="페이스북"></a></li>
+					<li><a href="#"><img src="image/twitter_footer.jpg" alt="트위터"></a></li>
+					<li><a href="#"><img src="image/blog_footer.jpg" alt="블로그"></a></li>
+					<li><a href="#"><img src="image/youtube_footer.jpg" alt="유튜브"></a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- footer -->
+	</div>
+ </body>
+</html>

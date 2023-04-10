@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*gnb*/
+.gnb{position:relative;}
+.gnb ul{position:absolute; right:250px; top:28px; font-size:18px; font-weight:500;}
+.gnb ul li{float:left; margin-left:35px; }
+.gnb ul li a{display:inline-block; padding-bottom:10px;}
+.gnb ul li a:hover{border-bottom:3px solid #15b1c0;}
+.gnb ul li input{position:absolute; right:-250px; top:-5px; border:1px solid #ddd; color:#5f5f5f; font-size:15px; font-weight:100;
+width:204px; height:38px; line-height:38px; text-indent:0.5em;
+background:url(../image/search.png) no-repeat right;}
+
+.gnb .selected{border-bottom:3px solid #15b1c0;}
+
+

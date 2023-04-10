@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* sub_visual */
+.bg1{width:100%; height:217px; background:url(../image/history/visual_bg.jpg) no-repeat center center;}
+.sub_visual{position:relative;}
+.sub_visual h2{position:absolute; right:30px; bottom:30px; color:#fff; font-size:20.5px; font-weight:400; 
+line-height:90%; text-align:right;}
+
+/* sub_content */
+.sub_content{overflow:hidden;}
+.sub_menu{float:left; width:200px;}
+.container{float:right; width:960px;}
+/* sub_menu */
+.sub_menu h2{font-size:26px; font-weight:500; padding-bottom:22px; margin-bottom:22px;
+border-bottom:1px solid #000; letter-spacing:-1px; margin-top:42px;}
+.sub_menu ul{overflow:hidden; font-size:18px; font-weight:400;}
+.sub_menu ul li{border-bottom:1px solid #d8d8d8;}
+.sub_menu ul li a{display:block; padding:14px;}
+.sub_menu ul li a:hover{background:#3f68c2; color:#fff;}
+.sub_menu ul li span{float:right;}
+.sub_menu .active{background:#3f68c2; color:#fff;}
+
+/* container */
+.container{position:relative; margin-bottom:234px;}
+.container h2{font-size:32px; font-weight:400; letter-spacing:-1px; color:#4c659b;
+ margin-top:40px; padding-bottom:14px; border-bottom:1px solid #cbcbcb;}
+
+.container .location{position:absolute; right:0; top:50px; font-size:14px; color:#a0a0a0;}
+.container .location img{position:absolute; right:215px; top:0;}
+.container .location span{color:#000; font-size:14.5px; font-weight:400;}
+
+/* about_bluemoon */
+.about_bluemoon{margin-top:50px; position:relative; padding:0 14px;}
+.about_bluemoon h3 > span{padding:0 22px;}
+.about_bluemoon h3 > p{position:absolute; left:14px; top:15px; font-size:60px; color:#2d81ad; font-weight:300; font-family: 'Noto Serif KR', serif;
+letter-spacing:-5px;}
+.about_bluemoon p{padding-bottom:40px; font-size:17.5px; line-height:160%;}
+.about_bluemoon p > b{font-size:24px; font-weight:300; font-family: 'Noto Serif KR', serif;}
+
+/* greeting */
+.greeting{position:relative;}
+.greeting p{position:absolute; right:36px; top:100px; color:#fff; text-align:center;
+font-family: 'Noto Serif KR', serif; font-style:oblique; font-size:16px;}
+
+/* portfolio */
+.portfolio{overflow:hidden;}
+.portfolio .left{position:relative; float:left; width:50%; margin-top:160px; height:580px;}
+.portfolio .right{float:right; width:50%;}
+.portfolio h3{text-align:center; margin-top:52px;}
+.portfolio .left h4,
+.portfolio .right h4{font-size:45px; font-weight:400; letter-spacing:-4px;}
+
+/* left */
+.portfolio .left h4{float:right;}
+.portfolio .left > div{position:absolute; right:8px; top:50px;}
+.left > div ul{font-size:0; text-align:right; }
+.left > div ul li{padding-bottom:20px; border-right:1px solid #ddd; padding-right:20px;
+font-size:14px; font-weight:400; color:#5f5f5f; letter-spacing:-1px; box-sizing:border-box; -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;}
+.left > div ul li:first-child{padding-top:20px;}
+.left > div ul li span{color:#555; display:inline-block; width:60px; height:15px; font-size:16px; padding-left:5px;}
+
+
+
+/* right */
+.portfolio .right{position:relative;}
+.portfolio .right h4{position:absolute; top:-6px; left:-17px;}
+.portfolio .right > div{position:absolute; left:-9px; top:40px;}
+.right > div ul{font-size:0; text-align:left; }
+.right > div ul li{padding-top:20px; padding-left:20px; border-left:1px solid #ddd;
+font-size:14px; font-weight:400; color:#5f5f5f; letter-spacing:-1px; box-sizing:border-box; -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;}
+.right > div ul li:first-child{padding-top:20px;}
+.right > div ul li:nth-child(n+4){border:none;}
+.right > div ul li span{color:#555; display:inline-block; width:103px; height:15px; font-size:16px; padding-right:5px;}
+
