@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* header */
+.header .search{overflow:hidden;}
+.header .search p{float:left; font-size:16px; color:#555; border-bottom:1px solid #ddd; 
+margin:0 5px; padding-bottom:5px; text-indent:0.5em;}
+
+/* sub_visual */
+.sub_visual{display:table; width:100%; height:423px; background:url(../image/about/vis_bg.jpg) no-repeat center center;}
+.sub_visual > div{display:table-cell; height:100%; vertical-align:middle; text-align:center; color:#fff; padding-top:150px;}
+.sub_visual > div h2{font-size:50px; font-weight:700; letter-spacing:-1px;}
+.sub_visual > div h3{font-size:20px; font-weight:300; padding-top:8px;}
+
+/* sub_content */
+.sub_content{padding-bottom:100px; overflow:hidden;}
+.sub_content .left{float:left; width:235px; text-align:center;}
+.sub_content .left ul li{width:235px; height:66px; line-height:66px; border:1px solid #ddd; border-bottom:0;
+font-size:17px; font-weight:400;}
+.sub_content .left ul li:first-child{width:235px; height:166px; line-height:166px; font-size:19px; font-weight:500; color:#000;
+background:url(../image/tit_bg.png) no-repeat center center; background-size:cover; background-color:#f6f7f9;}
+.sub_content .left ul li:last-child{border-bottom:1px solid #ddd;}
+.sub_content .left ul li:first-child a{color:#000;}
+.sub_content .left ul li a:hover{background-color:#338cfa; color:#fff;}
+.sub_content .left ul li .active{background-color:#338cfa; color:#fff;}
+.sub_content .left ul li a{display:block; color:#cecece;}
+
+.sub_content .right{float:right; width:930px; position:relative;}
+.sub_content .right .top{margin-bottom:60px;}
+.sub_content .right .top > h2{float:left; width:100%; height:165px; line-height:165px; font-size:38px; font-weight:500;
+border-bottom:1px solid #ddd;}
+.sub_content .right .top ul{position:absolute; right:0; top:75px; float:right; font-size:0;}
+.sub_content .right .top ul li{display:inline-block; font-size:17px; font-weight:400; color:#898989; padding-right:14px;}
+.sub_content .right .top ul li:last-child{padding-right:0;}
+
+.sub_content .right .bottom{padding-top:240px; position:relative;}
+.sub_content .right .bottom ul li h4{font-size:30px; font-weight:500; color:#338cfa; line-height:120%; letter-spacing:-1px; padding-bottom:50px;}
+.sub_content .right .bottom ul li b{display:block; font-size:22px; font-weight:400;
+padding-bottom:80px;}
+.sub_content .right .bottom ul li p{line-height:145%;}
+
+.sub_content .right .bottom ul li:first-child:after{position:absolute; content:""; 
+background:url(../image/about/ceo_man.jpg) no-repeat; width:397px; height:387px; 
+right:0; top:160px;}
+
+/* biz_visual */
+.biz_visual{display:table; width:100%; height:423px; background:url(../image/business/vis_bg.jpg) no-repeat center center;}
+.biz_visual > div{display:table-cell; height:100%; vertical-align:middle; text-align:center; color:#fff; padding-top:150px;}
+.biz_visual > div h2{font-size:50px; font-weight:700; letter-spacing:-1px;}
+.biz_visual > div h3{font-size:20px; font-weight:300; padding-top:8px;}
+
+/* biz_content */
+.biz_content{padding-bottom:100px; overflow:hidden;}
+.biz_content .left{float:left; width:235px; text-align:center;}
+.biz_content .left ul li{width:235px; height:66px; line-height:66px; border:1px solid #ddd; border-bottom:0;
+font-size:17px; font-weight:400;}
+.biz_content .left ul li:first-child{width:235px; height:166px; line-height:166px; font-size:19px; font-weight:500; color:#000;
+background:url(../image/tit_bg.png) no-repeat center center; background-size:cover; background-color:#f6f7f9;}
+.biz_content .left ul li:last-child{border-bottom:1px solid #ddd;}
+.biz_content .left ul li:first-child a{color:#000;}
+.biz_content .left ul li a:hover{background-color:#338cfa; color:#fff;}
+.biz_content .left ul li .active{background-color:#338cfa; color:#fff;}
+.biz_content .left ul li a{display:block; color:#cecece;}
+
+.biz_content .right{float:right; width:930px; position:relative;}
+.biz_content .right .top{margin-bottom:60px;}
+.biz_content .right .top > h2{float:left; width:100%; height:165px; line-height:165px; font-size:38px; font-weight:500;
+border-bottom:1px solid #ddd;}
+.biz_content .right .top ul{position:absolute; right:0; top:75px; float:right; font-size:0;}
+.biz_content .right .top ul li{display:inline-block; font-size:17px; font-weight:400; color:#898989; padding-right:14px;}
+.biz_content .right .top ul li:last-child{padding-right:0;}
+
+.biz_content .right .bottom{padding-top:180px; position:relative;}
+.biz_content .right .bottom ul li h4{font-size:30px; font-weight:500; color:#338cfa; line-height:120%; letter-spacing:-1px; padding-bottom:20px;}
+.biz_content .right .bottom ul li p{background:#a3b9ce; color:#fff; font-size:20px; font-weight:400; padding:45px 0; height:70px; text-align:center;
+margin-bottom:20px;}
+.biz_content .right .bottom .table ul{font-size:0; border-top:1px solid #000; text-align:center;}
+.biz_content .right .bottom .table ul li{display:inline-block; font-size:17px; font-weight:400; width:20%; 
+height:60px; line-height:60px;}
+.biz_content .right .bottom .rable ul{display:table; border-top:1.5px solid #000; text-align:left; border-bottom:1px solid #ddd;}
+.biz_content .right .bottom .rable ul li{display:table-cell; font-size:15px; font-weight:300; width:20%;
+height:150px; padding-top:15px; padding-left:20px;}
+
+.biz_content .right .innovate{margin-top:50px; width:100%; height:405px; background:url(../image/business/innovate_bg.jpg) no-repeat center center;}
+.biz_content .right .innovate > div{color:#fff; padding:50px;}
+.biz_content .right .innovate > div b{display:block; font-size:50px; font-weight:bold; line-height:110%; margin-bottom:50px;}
+.biz_content .right .innovate > div b span{font-size:32px; text-decoration:underline; text-underline-position:under;}
+
+.biz_content .right .icon{margin-top:50px; text-align:center;}
+.biz_content .right .icon ul{font-size:0; text-align:center; vertical-align:middle; }
+.biz_content .right .icon ul li{display:inline-block; width:250px; font-size:17px; line-height:145%;}
+.biz_content .right .icon ul li img{padding-bottom:10px;}
+.biz_content .right .icon ul li b{display:block; font-family:'GmarketSansMedium'; font-size:30px; font-weight:400; line-height:120%; padding-bottom:-5px;}
